@@ -1,0 +1,42 @@
+package com.company;
+
+import com.sun.jdi.Value;
+import org.w3c.dom.ls.LSOutput;
+
+import java.security.spec.RSAOtherPrimeInfo;
+import java.util.*;
+
+class Student
+{
+    private int student_id;
+
+    public void setId(int Id)
+    {
+        student_id = Id;
+    }
+
+    public int getId()
+    {
+        return student_id;
+    }
+}
+public class Main
+{
+    public static void main(String[] args)
+    {
+
+        Student obj = new Student();
+        obj.setId(100);
+        System.out.println(obj.getId());
+
+    }
+
+
+}
+
+
+
+
+
+
+
